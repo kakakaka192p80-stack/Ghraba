@@ -1,0 +1,15 @@
+1) Install Flutter 3.x and Android Studio.
+2) Open this project folder.
+3) Run:
+   flutter pub get
+4) Connect an Android phone with USB debugging enabled, or start an emulator.
+5) Test:
+   flutter run
+6) Build:
+   flutter build apk --release
+7) APK:
+   build/app/outputs/flutter-apk/app-release.apk
+
+The current environment used to prepare this package does not include Flutter/Android SDK,
+so the APK binary itself was not fabricated. This archive is the source MVP intended for
+a normal Flutter/Android build environment.
